@@ -3,11 +3,6 @@
 
 This repo is a terminal CLI network packet analyzer built with libpcap. Captures and dissects packets layer-by-layer through Ethernet, IP, TCP/UDP, supports protocol filtering, stores session data, and provides detailed packet inspection with hex dumps.
 
-Key files:
-- `cshark.c` for main implementation with capture loop, protocol parsers, and session management
-- `packet_store.c` / `packet_store.h` for packet storage and retrieval for session inspection
-- `protocol_parsers.c` / `protocol_parsers.h` for Ethernet, IPv4/IPv6, TCP/UDP, ARP decoding
-- `filters.c` / `filters.h` for protocol filtering logic (HTTP, HTTPS, DNS, ARP, TCP, UDP)
 
 Features
 --------
