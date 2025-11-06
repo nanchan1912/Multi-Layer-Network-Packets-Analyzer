@@ -1,6 +1,7 @@
 # C-Shark: Terminal Packet Sniffer
 > i like whales more than sharks
-This repo is a terminal CLI aah network packet analyzer built with libpcap. Captures and dissects packets layer-by-layer through Ethernet, IP, TCP/UDP, supports protocol filtering, stores session data, and provides detailed packet inspection with hex dumps.
+
+This repo is a terminal CLI network packet analyzer built with libpcap. Captures and dissects packets layer-by-layer through Ethernet, IP, TCP/UDP, supports protocol filtering, stores session data, and provides detailed packet inspection with hex dumps.
 
 Key files:
 - `cshark.c` for main implementation with capture loop, protocol parsers, and session management
@@ -69,5 +70,5 @@ sudo ./cshark
 sudo wireshark
 ```
 Compare packet counts, header values, and payload content to check we correct
-> here is a list of my top few favorite sharks (no wireshark)
+> here is a list of my top few favorite sharks (no wireshark):
 > great white | whale shark | hammerhead | lemon shark | nurse shark | tiger shark 
